@@ -1,0 +1,41 @@
+body {
+    background-color: lightcoral;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.calculatorBox {
+    background-color: aquamarine;
+    border: 1px solid black;
+    padding: 20px;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: 0 auto ;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h3 {
+    text-align: left;
+}
+.calculatorBox input {
+    margin-bottom: 10px;
+}
+#btn {
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 10px 20px;
+}
+#btn:hover {
+    background-color: gray;
+    color: black;
+}
+.answer-box {
+    background-color: aquamarine;
+    border: 1px solid black;
+    padding: 0px 20px;
+    width: 30%;
+    margin: 0 auto; 
+}
